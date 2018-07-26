@@ -1,0 +1,4 @@
+<h1>LISTAS DE TAREAS</h1>
+<div *ngFor="let list of todosLists">
+  <app-todo-list [todos]="list.todos" [title]="list.title"></app-todo-list>
+</div>

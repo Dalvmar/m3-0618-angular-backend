@@ -1,0 +1,4 @@
+<h2>Lista:{{title}}</h2>
+<div *ngFor="let todo of todos">
+  <app-todo [id]="todo._id" [text]="todo.text" [done]="todo.done"></app-todo>
+</div>
